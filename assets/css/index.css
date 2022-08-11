@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'creativerg';
+    src: url('../fonts/CREABBRG.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'creativebold';
+    src: url('../fonts/CREABBB_.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+letter_text {
+	font-weight: 600 !important;
+	margin: auto !important;
+	text-align: center !important;
+}
+
+.breadcrumb-title {
+	font-family: 'Georgia', 'creativebold' !important;
+}
