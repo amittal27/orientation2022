@@ -25,6 +25,7 @@
    <link rel="stylesheet" href="assets/css/themify-icons.css">
    <link rel="stylesheet" href="assets/css/nice-select.css">
    <link rel="stylesheet" href="assets/css/ui-range-slider.css">
+   <link rel="stylesheet" href="assets/css/marginpadding.css">
    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -52,8 +53,8 @@
                                             <li>
 												<a>About The Daily</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="https://dailynorthwestern.com/">Website</a></li>
-                                                    <li><a href="https://dailynorthwestern.com/contact/">Contact</a></li>
+                                                    <li><a href="https://dailynorthwestern.com/" target="_blank">Website</a></li>
+                                                    <li><a href="https://dailynorthwestern.com/contact/" target="_blank">Contact</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -67,7 +68,7 @@
                         <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-8 col-8">
                             <div class="header-right-wrapper d-flex align-items-center justify-content-end">
 								<div class="logo pr-55 d-inline-block">
-                                    <a><img src="assets/img/logo/white_logo.png" alt="#"></a>
+                                    <a href="https://dailynorthwestern.com/" target="_blank"><img src="assets/img/logo/white_logo.png" alt="#"></a>
                                 </div>
                                 <div class="header-bar ml-20 d-lg-none">
                                     <button type="button" class="header-bar-btn" data-bs-toggle="modal" data-bs-target="#offCanvasModal">
@@ -88,7 +89,7 @@
         </div>
     </header>
     <!-- header area end -->
-	
+
     <!-- sidebar area start -->
     <section class="offcanvas__area">
         <div class="modal fade" id="offCanvasModal" tabindex="-1" aria-labelledby="offCanvasModal" aria-hidden="true">
@@ -97,7 +98,7 @@
                     <div class="offcanvas__wrapper">
                         <div class="offcanvas__top d-flex align-items-center mb-60 justify-content-between">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="https://dailynorthwestern.com/" target="_blank">
                                    <img src="assets/img/logo/black_logo.png" alt="logo">
                                 </a>
                              </div>
@@ -118,13 +119,13 @@
                            <div class="offcanvas__social mt-15">
                               <ul>
                                  <li>
-                                    <a href="https://www.facebook.com/thedailynorthwestern"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.facebook.com/thedailynorthwestern" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                  </li>
                                  <li>
-                                    <a href="https://twitter.com/thedailynu"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://twitter.com/thedailynu" target="_blank"><i class="fab fa-twitter"></i></a>
                                  </li>
                                  <li>
-                                    <a href="https://www.instagram.com/thedailynu/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/thedailynu/" target="_blank"><i class="fab fa-instagram"></i></a>
                                  </li>
                               </ul>
                            </div>
@@ -140,11 +141,11 @@
     <main>
 
         <!-- banner area start -->
-        <div class="breadcrumb-area pt-255 pb-265 mb-120" data-background="assets/img/sports/sports_breadcrumb.jpg" style="background-size:cover;">
+        <div class="breadcrumb-area pt-255 pb-265 mb-20" data-background="assets/img/sports/sports_breadcrumb.jpg" style="background-size:cover;">
             <div class="container">
                 <div class="breadcrumb-title text-center" style="background:rgb(0,0,0,0.5)">
                     <h2 style="color:white;">SPORTS</h2>
-					<span style="color:white;">Division I Athletics</span>
+					<span style="color:white;" class="origin">Division I Athletics</span>
                 </div>
             </div>
         </div>
@@ -157,185 +158,218 @@
                     <div class="col-xxl-12">
                         <div class="shop-main-area">
                             <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade  show active" id="tab1">
-                                    <div class="row pb-20">
-                                        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                                            <div class="single-product mb-15 wow fadeInUp" data-wow-delay=".1s">
-                                                <div class="product-thumb">
-                                                    <img src="assets/img/sports/watch.png" alt="#">
-                                                </div>
-                                                <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Northwestern’s athletic stars to watch in 2022-23</a></h4>
+                                <div class="category-area pb-75" id="category-area">
+                                    <div class="pl-20 pr-20">
+                                        <div class="row row-2">
+                                            <div class="col-xxl-6 col-xl-6 col-md-6 col-12">
+                                                <div class="single-category mb-20 p-rel wow fadeInUp" data-wow-delay=".1s">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/northwesterns-athletic-stars-to-watch-in-2022-23/" target="_blank">
+                                                        <div class="cat-thumb fix">
+                                                            <img src="assets/img/sports/watch.png" alt="#">
+                                                        </div>
+                                                        <div class="cat-content p-abs bottom-left">
+                                                            <h4 class="pb-15" style="color:white">Northwestern’s athletic stars to watch in 2022-23</h4>
+                                                        </div>
+                                                    </a>
                                                 </div>
                                             </div>
+                                            <div id="letter_text" class="col-xxl-6 col-xxl-6 col-xl-6 col-md-6 col-12" style="margin:auto; text-align:center; font-size:18px;">
+                                                Northwestern athletics is coming off one of its most prolific years in recent history. <br><br>
+
+Softball reached the Women’s College World Series for the first time since 2007. Lacrosse played in its third-consecutive NCAA semifinal. Field hockey won its first NCAA championship.
+<br><br>
+With so many dominant programs, many of the Wildcats’ best players aren’t just stars in the Big Ten, but are well-known on the national and international scale as well. Here’s a breakdown of some of NU’s top athletes.
+                                            </div>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade  show active" id="tab1">
+                                    <div class="container">
+                                        <div class="breadcrumb-title text-center" style="background:rgb(249,78,86,0.5) !important">
+                                            <h2 style="color:white;">FALL</h2>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <div class="row pb-20">
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay=".3s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/football.jpeg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/football-northwestern-aims-to-rebound-after-down-year-and-tough-offseason/" target="_blank"><img src="assets/img/sports/football.jpeg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Football: Northwestern aims to rebound after down year and tough offseason</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/football-northwestern-aims-to-rebound-after-down-year-and-tough-offseason/" target="_blank">Football: Northwestern aims to rebound after down year and tough offseason</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay=".6s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/volleyball.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/volleyball-northwestern-looks-to-break-out-with-veterans-and-best-ever-recruiting-class/" target="_blank"><img src="assets/img/sports/volleyball.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Volleyball: Northwestern looks to break out with veterans and best-ever recruiting class</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/volleyball-northwestern-looks-to-break-out-with-veterans-and-best-ever-recruiting-class/" target="_blank">Volleyball: Northwestern looks to break out with veterans and best-ever recruiting class</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay=".9s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/wsoc.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/womens-soccer-northwestern-looks-to-find-its-groove-in-2022/" target="_blank"><img src="assets/img/sports/wsoc.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Women’s Soccer: Northwestern looks to find its groove in 2022</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/womens-soccer-northwestern-looks-to-find-its-groove-in-2022/" target="_blank">Women’s Soccer: Northwestern looks to find its groove in 2022</a></h4>
                                                 </div>
                                             </div>
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.2s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/msoc.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/mens-soccer-northwestern-set-for-success-in-second-year-under-coach-payne/" target="_blank"><img src="assets/img/sports/msoc.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Men’s Soccer: Northwestern set for success in second year under coach Payne</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/mens-soccer-northwestern-set-for-success-in-second-year-under-coach-payne/" target="_blank">Men’s Soccer: Northwestern set for success in second year under coach Payne</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.5s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/xc.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/cross-country-northwestern-looks-to-continue-momentum/" target="_blank"><img src="assets/img/sports/xc.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Cross Country: Northwestern looks to continue momentum </a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/cross-country-northwestern-looks-to-continue-momentum/" target="_blank">Cross Country: Northwestern looks to continue momentum </a></h4>
                                                 </div>
                                             </div> 
+                                        </div>
+                                        <div class="container">
+                                            <div class="breadcrumb-title text-center" style="background:rgb(249,78,86,0.5) !important">
+                                                <h2 style="color:white;">WINTER</h2>
+                                            </div>
+                                            <br>
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.8s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/wrest.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/wrestling-northwesterns-in-store-for-another-successful-season/" target="_blank"><img src="assets/img/sports/wrest.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Wrestling: Northwestern’s in store for another successful season</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/wrestling-northwesterns-in-store-for-another-successful-season/" target="_blank">Wrestling: Northwestern’s in store for another successful season</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="2.1s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/fencing.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/fencing-cats-continue-to-claw-through-the-competition/" target="_blank"><img src="assets/img/sports/fencing.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Fencing: Cats continue to claw through the competition</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/fencing-cats-continue-to-claw-through-the-competition/" target="_blank">Fencing: Cats continue to claw through the competition</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
                                         <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.2s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/swim.jpeg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/swimming-and-diving-northwestern-looks-to-build-on-big-ten-national-standing/" target="_blank"><img src="assets/img/sports/swim.jpeg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Swimming and Diving: Northwestern looks to build on Big Ten, national standing</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/swimming-and-diving-northwestern-looks-to-build-on-big-ten-national-standing/" target="_blank">Swimming and Diving: Northwestern looks to build on Big Ten, national standing</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.5s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/mbball.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/mens-basketball-a-decisive-year-ahead-for-coach-collins-northwestern/" target="_blank"><img src="assets/img/sports/mbball.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Men’s Basketball: A decisive year ahead for coach Collins, Northwestern</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/mens-basketball-a-decisive-year-ahead-for-coach-collins-northwestern/" target="_blank">Men’s Basketball: A decisive year ahead for coach Collins, Northwestern</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.8s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/wbball.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/womens-basketball-northwestern-looks-to-regroup-in-the-post-burton-era/" target="_blank"><img src="assets/img/sports/wbball.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Women’s Basketball: Northwestern looks to regroup in the post-Burton era</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/womens-basketball-northwestern-looks-to-regroup-in-the-post-burton-era/" target="_blank">Women’s Basketball: Northwestern looks to regroup in the post-Burton era</a></h4>
                                                 </div>
                                             </div> 
+                                        </div>
+                                        <div class="container">
+                                            <div class="breadcrumb-title text-center" style="background:rgb(249,78,86,0.5) !important">
+                                                <h2 style="color:white;">SPRING</h2>
+                                            </div>
+                                            <br>
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="2.1s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/bb.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/baseball-northwestern-baseball-aims-for-a-fresh-start-with-new-faces/" target="_blank"><img src="assets/img/sports/bb.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Baseball: Northwestern baseball aims for a fresh start with new faces</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/baseball-northwestern-baseball-aims-for-a-fresh-start-with-new-faces/" target="_blank">Baseball: Northwestern baseball aims for a fresh start with new faces</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
                                         <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.5s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/softball.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/softball-northwestern-returning-veteran-firepower-eyes-another-trip-to-oklahoma-city-in-2023/" target="_blank"><img src="assets/img/sports/softball.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Softball: Northwestern returning veteran firepower, eyes another trip to Oklahoma City in 2023</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/softball-northwestern-returning-veteran-firepower-eyes-another-trip-to-oklahoma-city-in-2023/" target="_blank">Softball: Northwestern returning veteran firepower, eyes another trip to Oklahoma City in 2023</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.8s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/lax.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/lacrosse-northwestern-looks-to-rebuild-remain-competitive-on-national-scale/" target="_blank"><img src="assets/img/sports/lax.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Lacrosse: Northwestern looks to rebuild, remain competitive on national scale</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/lacrosse-northwestern-looks-to-rebuild-remain-competitive-on-national-scale/" target="_blank">Lacrosse: Northwestern looks to rebuild, remain competitive on national scale</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="2.1s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/mten.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/mens-tennis-cats-poised-to-reach-ncaa-super-regionals-in-2023/" target="_blank"><img src="assets/img/sports/mten.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Men’s Tennis: Cats poised to reach NCAA super regionals in 2023</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/mens-tennis-cats-poised-to-reach-ncaa-super-regionals-in-2023/" target="_blank">Men’s Tennis: Cats poised to reach NCAA super regionals in 2023</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
                                         <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.5s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/wten.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/womens-tennis-northwestern-eyes-big-ten-title-with-veteran-returners/" target="_blank"><img src="assets/img/sports/wten.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Women’s Tennis: Northwestern eyes Big Ten title with veteran returners</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/womens-tennis-northwestern-eyes-big-ten-title-with-veteran-returners/" target="_blank">Women’s Tennis: Northwestern eyes Big Ten title with veteran returners</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
 										<div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="2.1s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/wgolf.jpg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/womens-golf-northwestern-looks-to-reach-ncaa-championship-for-first-time-since-2019/" target="_blank"><img src="assets/img/sports/wgolf.jpg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Women’s Golf: Northwestern looks to reach NCAA Championship for first time since 2019</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/womens-golf-northwestern-looks-to-reach-ncaa-championship-for-first-time-since-2019/" target="_blank">Women’s Golf: Northwestern looks to reach NCAA Championship for first time since 2019</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
                                         <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                             <div class="single-product mb-15 wow fadeInUp" data-wow-delay="1.5s">
                                                 <div class="product-thumb">
-                                                    <img src="assets/img/sports/mgolf.jpeg" alt="#">
+                                                    <a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/mens-golf-northwestern-sets-sights-on-ncaa-championship-appearance/" target="_blank"><img src="assets/img/sports/mgolf.jpeg" alt="#"></a>
                                                 </div>
                                                 <div class="product-content">
-                                                    <h4 class="pro-title pro-title-1"><a href="product-details.html">Men’s Golf: Northwestern sets sights on NCAA Championship appearance</a></h4>
+                                                    <h4 class="pro-title pro-title-1"><a href="https://dailynorthwestern.com/2022/08/12/orientation-2022/mens-golf-northwestern-sets-sights-on-ncaa-championship-appearance/" target="_blank">Men’s Golf: Northwestern sets sights on NCAA Championship appearance</a></h4>
                                                 </div>
                                             </div> 
                                         </div>
@@ -365,7 +399,7 @@
                 <div class="col-xxl-6">
                     <div class="widget f-widget pb-30 wow fadeInUp" data-wow-delay=".4s">
                         <h5 class="f-widget-title">Orientation Issue 2022</h5>
-                        <h5 class="f-widget-title">Read the print issue</h5>
+                        <a href="https://issuu.com/dailynu/docs/orientation2022" target="_blank"  class="footer-link"><h5 class="f-widget-title">Read the print issue</h5></a>
                     </div>
                 </div>
                 <div class="col-xxl-6" style="align-content: flex-end">
@@ -374,6 +408,7 @@
                         <address>
                             <ul>
                                 <li><strong>Summer Editor:</strong> Isabel Funk</li>
+                                <li><strong>Print Managing Editors:</strong> Yiming Fu, Audrey Hettleman and Charlotte Varnes</li>
                                 <li><strong>Digital Managing Editor:</strong> Joanne Haner</li>
 								<li><strong>Design Editors:</strong> Olivia Abeyta and Angeli Mittal</li>
 								<li>Site created by Angeli Mittal</li>
