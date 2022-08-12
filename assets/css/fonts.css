@@ -2,101 +2,69 @@
 
 @font-face {
     font-family: 'creativerg';
-    src: url('../fonts/CREABBRG.otf') format('otf');
+    src: url('../fonts/CREABBRG.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'creativebold';
-    src: url('../fonts/CREABBB_.otf') format('otf');
+    src: url('../fonts/CREABBB_.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'archivobold';
-    src: url('../fonts/archivo-bold-webfont.woff2') format('woff2'),
-         url('../fonts/archivo-bold-webfont.woff') format('woff');
+    font-family: 'arnobold';
+    src: url('../fonts/ArnoPro-Bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'archivobold_italic';
-    src: url('../fonts/archivo-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/archivo-bolditalic-webfont.woff') format('woff');
+    font-family: 'arnobolditalic';
+    src: url('../fonts/ArnoPro-BoldItalic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'archivoitalic';
-    src: url('../fonts/archivo-italic-webfont.woff2') format('woff2'),
-         url('../fonts/archivo-italic-webfont.woff') format('woff');
+    font-family: 'arnodisplay';
+    src: url('../fonts/ArnoPro-Display.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'archivomedium';
-    src: url('../fonts/archivo-medium-webfont.woff2') format('woff2'),
-         url('../fonts/archivo-medium-webfont.woff') format('woff');
+    font-family: 'arnoitalic';
+    src: url('../fonts/ArnoPro-Italic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'arnolightdisplay';
+    src: url('../fonts/ArnoPro-LightDisplay.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-
-
-
 @font-face {
-    font-family: 'archivomedium_italic';
-    src: url('../fonts/archivo-mediumitalic-webfont.woff2') format('woff2'),
-         url('../fonts/archivo-mediumitalic-webfont.woff') format('woff');
+    font-family: 'arnorg';
+    src: url('../fonts/ArnoPro-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'archivoregular';
-    src: url('../fonts/archivo-regular-webfont.woff2') format('woff2'),
-         url('../fonts/archivo-regular-webfont.woff') format('woff');
+    font-family: 'arnosemibold';
+    src: url('../fonts/ArnoPro-Smbd.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'archivosemibold';
-    src: url('../fonts/archivo-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/archivo-semibold-webfont.woff') format('woff');
+    font-family: 'arnosemibolditalic';
+    src: url('../fonts/ArnoPro-SmbdItalic.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'archivosemibold_italic';
-    src: url('../fonts/archivo-semibolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/archivo-semibolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
