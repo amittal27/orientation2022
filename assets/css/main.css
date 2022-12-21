@@ -7411,12 +7411,12 @@ p.checkout-coupon input[type=text]:focus {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .breadcrumb-title h2 {
-    font-size: 65px;
+    font-size: 35px;
   }
 }
 @media (max-width: 575px) {
   .breadcrumb-title h2 {
-    font-size: 65px;
+    font-size: 25px;
   }
 }
 
